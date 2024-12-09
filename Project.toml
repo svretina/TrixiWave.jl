@@ -1,0 +1,13 @@
+name = "TrixiWave"
+uuid = "fff361b4-3e3b-4757-b2ad-bdbdb69f96f0"
+authors = ["Stamatis Vretinaris"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
